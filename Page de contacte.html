@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Liste Articles</title>
+	<!-- bootstrap cdn -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+	<!-- font awesome cdn -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<!-- style.css -->
+	<link rel="stylesheet" href="Public/Css/style.css"/>
+    <link rel="stylesheet" href="public/Css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<!-- jquery cdn -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body >
+
+<!-- Background image -->
+<div id="intro" class="bg-image shadow-2-strong">
+  <div class="mask" style="background-color: rgba(0, 0, 0, 0.3); height: 140vh;">
+    <div>     
+	<div class="col-md-12 navbar">
+		<a href="Page d'accueil.html" class="logo navbar-brand text-white offset-md-2">DreamCatchers</a>
+		<ul class="nav">
+			<li class="nav-item "><a href="Page d'accueil.html" class="nav-link">Acceuil</a></li>
+			<li class="nav-item "><a href="Liste d'articles.html" class="nav-link">Articles</a></li>
+			<li class="nav-item "><a href="D'etail d'articles.html" class="nav-link">Détails</a></li>
+			<li class="nav-item"><a href="Page de commande d'un articke.html" class="nav-link">Commande</a></li>
+			<li class="nav-item active"><a href="Page de contacte.html" class="nav-link">Aide</a></li>
+			<li class="nav-item"><a href="login.html" class="nav-link">Sidentifier</a></li>
+		</ul>
+	</div>			 
+      <!-- Jumbotron -->
+<div class="card-deck col-8" style="margin-top: 2%; margin-left: 15%;"> 
+    <div class="card mb-3"  >
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="https://images.pexels.com/photos/5970889/pexels-photo-5970889.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="img-fluid rounded-start" alt="..." style="margin-top: 5%; margin-left: 2%;"   >
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <div class="article">
+                      <form id="contact-form" role="form">
+						<div class="controls">
+							<div class="card-header">
+								<h3 class="card-title">Contactez-nous</i></h3>
+							 </div>
+							 <div>
+								 <p> <i class="fa-solid fa-envelope"></i> Dream@catchers.dz</p>
+								 <p> <i class="fa-solid fa-phone"></i> +213 23 30 54 11 / 12 </p>
+								 <p> <i class="fa-solid fa-phone"></i> +213 770 115 417 / 0782 23 65 54 </p>
+								 <p> <i class="fa-solid fa-location-dot"></i> Propriéte N 233, Bloc 04 , Amara Cheraga Alger </p>
+							 </div>
+							<div class="row">			
+								<div class="col-md-6">																				
+							    <div class="form-group"> <label for="form_name"> </label> <input id="form_name" type="text" name="name" class="form-control" placeholder="Veuiller saisir votre nom" required="required" data-error="Nom est obligatoire."> </div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group"> <label for="form_lastname"> </label> <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Veuiller saisir votre Prenom" required="required" data-error="Prenom est obligatoire."> </div>
+							</div>
+						</div>
+						<div class="row">																		
+							<div class="col-md-6">
+								<div class="form-group"> <label for="form_email"> </label> <input id="form_email" type="email" name="email" class="form-control" placeholder="Veuiller saisir votre email " required="required" data-error="Email valide est obligatoire."> </div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group"> <label for="form_need">  </label> 
+									<select id="form_need" name="need" class="form-control" required="required" data-error="Merci de préciser votrebesoin.">
+										<option value="" selected disabled>Selectionner votre probleme</option>
+										<option>Request Invoice for order</option>
+										<option>Request order status</option>
+										<option>Haven't received cashback yet</option>
+										<option>Autre</option>
+									 </select> 
+								</div>						
+							</div>																		
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+							<div class="form-group"> <label for="form_message"> </label> <textarea id="form_message" name="message" class="form-control" placeholder="Ecriver votre message ici." rows="1" required="required" data-error="Merci de nous laisser un message."></textarea> </div>				
+						</div>
+							<div class="col-md-12"> <input type="submit" class="btn btn-dark btn-send pt-2 btn-block " value="Envoyer">  </div>
+						</div>
+					</div>
+				</form>	
+		    </div>  
+        </div>
+    </div>
+</div>
+</div>
+ </div>  
+      <!-- Jumbotron -->
+</div>
+ 
+  </div>
+</div>
+<!-- Background image -->
+
+</body>
+</html>
